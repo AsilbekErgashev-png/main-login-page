@@ -1,114 +1,113 @@
-.header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.link {
-  text-decoration: none;
-  font-size: 1.1em;
-  color: white;
-  font-weight: 600;
-  position: relative;
+.link{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 600;
+    position: relative;
 }
-.nav {
-  top: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.nav{
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.ul {
-  display: flex;
-  align-items: center;
+.ul{
+    display: flex;
+    align-items: center;
 }
-.loginBtn {
-  width: 100px;
-  height: 50px;
-  background-color: unset;
-  border: 2px solid white;
-  border-radius: 4px;
-  color: white;
-  font-weight: 600;
-  font-size: 1.1em;
-  cursor: pointer;
+.loginBtn{
+    width: 100px;
+    height: 50px;
+    background-color: unset;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    cursor: pointer;
 }
-.li {
-  list-style-type: none;
-  margin: 20px 30px;
+.li{
+    list-style-type: none;
+    margin: 20px 30px;
 }
-.loginBtn:hover {
-  background-color: white;
-  transition: 0.5s;
-  color: black;
+.loginBtn:hover{
+    background-color: white;
+    transition: .5s;
+    color: black;
 }
-.link::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background-color: white;
-  border-radius: 5px;
-  left: 0;
-  bottom: -10px;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s;
+.link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    left: 0;
+    bottom: -10px;
+    transform-origin: right;
+    transform:scaleX(0);
+    transition: transform 0.3s;
 }
-.link:hover:after {
-  transform: scaleX(1);
-  transform-origin: left;
+.link:hover:after{
+    transform: scaleX(1);
+    transform-origin: left;
 }
-.logo {
-  color: white;
-  font-size: 2.2em;
-  font-weight: 600;
+.logo{
+    color: white;
+    font-size: 2.2em;
+    font-weight: 600;
 }
-.form {
-  backdrop-filter: blur(30px);
-  border: 1px solid rgb(212, 212, 212);
-  border-radius: 20px;
-  padding: 20px;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* background-color: rebeccapurple; */
+.form{
+    backdrop-filter: blur(30px);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
 }
-.p {
-  font-size: 20px;
-  font-weight: 600px;
-  color: white;
+.p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
 }
-.input {
-  margin: 0 auto;
-  width: 100%;
-  height: 30px;
-  border-radius: 15px;
-  border-bottom: 1px solid rgb(214, 214, 214);
-  outline-style: none;
-  padding-left: 10px;
-  background-color: unset;
+.input{
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(214, 214, 214);
+    outline-style: none;
+    padding-left: 10px;
 }
-.haveAcc {
-  display: flex;
-  margin-left: 30%;
+.haveAcc{
+    display: flex;
+    margin-left: 30%;
 }
-.remember-forgot {
-  display: flex;
-  margin-left: 20%;
+.remember-forgot{
+    display: flex;
+    margin-left: 20%;
 }
-.singUp {
-  width: 100px;
-  height: 35px;
-  border: 1px solid rgb(214, 214, 214);
-  border-radius: 15px;
-  margin-left: 38%;
+.singUp{
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 15px;
+    margin-left: 38%;
 }
-.singIn {
-  color: rgb(255, 255, 255);
+.singIn{
+    color: rgb(255, 255, 255);
 }
-.singIn:hover {
-  text-decoration: none;
+.singIn:hover{
+    text-decoration: none;
 }
